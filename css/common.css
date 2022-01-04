@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+img,
+fieldset {
+    border: 0;
+    vertical-align: middle;
+}
+
+input,
+textarea {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    vertical-align: middle
+}
+
+hr {
+    clear: both;
+    border: none;
+}
+
+.inner {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 100%;
+    min-width: 1280px;
+    overflow: hidden;
+}
